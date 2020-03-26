@@ -42,7 +42,7 @@ class Test_User:
 
         user.password()
 
-        user.password1()   
+        user.password1()
 
         user.commit()
         assert "已创建" in self.driver.page_source
