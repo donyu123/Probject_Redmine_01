@@ -66,7 +66,7 @@ class Test_User:
         #确定弹窗
         self.driver.switch_to.alert.accept()
         time.sleep(3)
-        self.driver.quit()
+        self.driver.quit()  
 
 if __name__ == '__main__':
     pytest.main(["-s","test_0002_add_user.py"])
