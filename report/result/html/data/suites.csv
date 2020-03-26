@@ -1,0 +1,23 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 26 16:59:16 CST 2020","Thu Mar 26 16:59:19 CST 2020","3831","test_case","test_0004_add_bug","Test_add_bug","","","test_add_bug",""
+"passed","Thu Mar 26 16:58:18 CST 2020","Thu Mar 26 16:58:19 CST 2020","958","test_case","test_0002_add_user","Test_User","","","test_uesr","
+        创建用户
+        创建用户按钮
+        用户名字
+        用户姓
+        用户名
+        邮箱132132132
+        用户密码
+        确认用户密码
+        确认创建按钮
+        :return:
+        "
+"passed","Thu Mar 26 16:58:43 CST 2020","Thu Mar 26 16:58:53 CST 2020","10733","test_case","test_0003_add_project","Test_Pobject_add","","","test_pobject_add","
+        实例化对象
+        调用新建按钮
+        调用输入项目名称
+        调用确定按钮
+        判断是否创建成功
+        http://192.168.1.225:81/redmine/projects
+        :return:
+        "

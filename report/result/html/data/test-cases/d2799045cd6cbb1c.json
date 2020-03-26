@@ -1,0 +1,96 @@
+{
+  "uid" : "d2799045cd6cbb1c",
+  "name" : "test_pobject_add",
+  "fullName" : "test_case.test_0003_add_project.Test_Pobject_add#test_pobject_add",
+  "historyId" : "22a0ebd375cf1c8be81faa9fe11858e2",
+  "time" : {
+    "start" : 1585213123133,
+    "stop" : 1585213133866,
+    "duration" : 10733
+  },
+  "description" : "\n        实例化对象\n        调用新建按钮\n        调用输入项目名称\n        调用确定按钮\n        判断是否创建成功\n        http://192.168.1.225:81/redmine/projects\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    实例化对象\n    调用新建按钮\n    调用输入项目名称\n    调用确定按钮\n    判断是否创建成功\n    http://192.168.1.225:81/redmine/projects\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1585213114180,
+      "stop" : 1585213123133,
+      "duration" : 8953
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1585213133868,
+      "stop" : 1585213147070,
+      "duration" : 13202
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_0003_add_project"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Pobject_add"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-THN35DI"
+  }, {
+    "name" : "thread",
+    "value" : "332-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_0003_add_project"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8e687731b40890ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585211997415,
+        "stop" : 1585212008153,
+        "duration" : 10738
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2799045cd6cbb1c.json",
+  "parameterValues" : [ ]
+}

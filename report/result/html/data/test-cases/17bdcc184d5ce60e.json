@@ -1,0 +1,96 @@
+{
+  "uid" : "17bdcc184d5ce60e",
+  "name" : "test_uesr",
+  "fullName" : "test_case.test_0002_add_user.Test_User#test_uesr",
+  "historyId" : "26f1fcca6c1a78e6f589330fd4552f2f",
+  "time" : {
+    "start" : 1585213098585,
+    "stop" : 1585213099543,
+    "duration" : 958
+  },
+  "description" : "\n        创建用户\n        创建用户按钮\n        用户名字\n        用户姓\n        用户名\n        邮箱132132132\n        用户密码\n        确认用户密码\n        确认创建按钮\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    创建用户\n    创建用户按钮\n    用户名字\n    用户姓\n    用户名\n    邮箱132132132\n    用户密码\n    确认用户密码\n    确认创建按钮\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1585213089462,
+      "stop" : 1585213098584,
+      "duration" : 9122
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1585213099543,
+      "stop" : 1585213114176,
+      "duration" : 14633
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_0002_add_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_User"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-THN35DI"
+  }, {
+    "name" : "thread",
+    "value" : "332-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_0002_add_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8e6ef6a4bdfcd95a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585211972717,
+        "stop" : 1585211973628,
+        "duration" : 911
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17bdcc184d5ce60e.json",
+  "parameterValues" : [ ]
+}
