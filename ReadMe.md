@@ -7,7 +7,7 @@ data ------> 测试数据 excel 例如登录的用户
 
 driver -----> 驱动器
 
-log ---->日志
+log ---->日志     1
 
 page----> 分别存放了各个用例的定位 和 所需要的click   send_keys 一些方法
 
