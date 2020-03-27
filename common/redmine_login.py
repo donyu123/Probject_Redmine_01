@@ -16,7 +16,10 @@ excel = ExcelRead("D:\\Probject_Redmine_01\\data\\user.xlsx","Sheet1").data()
 class  RedmineLogin:
     @staticmethod
     def  log_redmine():
-        driver =  webdriver.Chrome()
+        opt = webdriver.ChromeOptions()
+        opt.binary_location="C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe"
+
+        driver =  webdriver.Chrome(options=opt)
 
         driver.implicitly_wait(10)
         driver.get(url)
