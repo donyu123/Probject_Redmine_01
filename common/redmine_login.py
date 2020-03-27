@@ -17,7 +17,8 @@ class  RedmineLogin:
     @staticmethod
     def  log_redmine():
         #实例化驱动器
-        driver = webdriver.Chrome(executable_path="D:\\python\\chromedriver.exe")
+        Options= webdriver.ChromeOptions("D:\\python\\chromedriver.exe")
+        driver = webdriver.Chrome(chrome_options=Options)
         driver.implicitly_wait(10)
         driver.get(url)
         #传入driver 驱动
