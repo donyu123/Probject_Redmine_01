@@ -18,7 +18,7 @@ class  RedmineLogin:
     def  log_redmine():
         option = webdriver.ChromeOptions()
         option.binary_location = r'C:\Users\admin\AppData\Local\Google\Chrome\Application\chrome.exe'
-        driver =  webdriver.Chrome()
+        driver=webdriver.Chrome(options=option)
 
         driver.implicitly_wait(10)
         driver.get(url)

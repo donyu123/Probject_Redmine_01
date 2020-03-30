@@ -5,7 +5,6 @@ from  page.reamine_page import *
 from  config.Config import ReadMe
 from common.redmine_login import RedmineLogin
 from utils.allureUtils import allure_test
-
 time_user= 'user{}'.format(time.time())
 re_url= ReadMe("D:\\Probject_Redmine_01\\config\\ReadMe.ini").ip_address()
 class Test_User:
